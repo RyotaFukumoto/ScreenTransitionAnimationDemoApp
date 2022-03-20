@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3CF09BB27E73F9D00E55FFD /* CrossDissolveTransiton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CF09BA27E73F9D00E55FFD /* CrossDissolveTransiton.swift */; };
 		A3D3AE4627E369F800EE0866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3AE4527E369F800EE0866 /* AppDelegate.swift */; };
 		A3D3AE4827E369F800EE0866 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3AE4727E369F800EE0866 /* SceneDelegate.swift */; };
 		A3D3AE4A27E369F800EE0866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3AE4927E369F800EE0866 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		A3D3AE5D27E36A0700EE0866 /* ScreenTransitionAnimationDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3AE5C27E36A0700EE0866 /* ScreenTransitionAnimationDemoAppTests.swift */; };
 		A3D3AE6727E36A0700EE0866 /* ScreenTransitionAnimationDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3AE6627E36A0700EE0866 /* ScreenTransitionAnimationDemoAppUITests.swift */; };
 		A3D3AE6927E36A0700EE0866 /* ScreenTransitionAnimationDemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3AE6827E36A0700EE0866 /* ScreenTransitionAnimationDemoAppUITestsLaunchTests.swift */; };
+		A3D3AE7627E36A3F00EE0866 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3AE7527E36A3F00EE0866 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3CF09BA27E73F9D00E55FFD /* CrossDissolveTransiton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossDissolveTransiton.swift; sourceTree = "<group>"; };
 		A3D3AE4227E369F800EE0866 /* ScreenTransitionAnimationDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTransitionAnimationDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D3AE4527E369F800EE0866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3D3AE4727E369F800EE0866 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		A3D3AE6227E36A0700EE0866 /* ScreenTransitionAnimationDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenTransitionAnimationDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D3AE6627E36A0700EE0866 /* ScreenTransitionAnimationDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTransitionAnimationDemoAppUITests.swift; sourceTree = "<group>"; };
 		A3D3AE6827E36A0700EE0866 /* ScreenTransitionAnimationDemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTransitionAnimationDemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A3D3AE7527E36A3F00EE0866 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				A3D3AE4527E369F800EE0866 /* AppDelegate.swift */,
 				A3D3AE4727E369F800EE0866 /* SceneDelegate.swift */,
+				A3CF09BA27E73F9D00E55FFD /* CrossDissolveTransiton.swift */,
 				A3D3AE4927E369F800EE0866 /* ViewController.swift */,
+				A3D3AE7527E36A3F00EE0866 /* SecondViewController.swift */,
 				A3D3AE4B27E369F800EE0866 /* Main.storyboard */,
 				A3D3AE4E27E36A0600EE0866 /* Assets.xcassets */,
 				A3D3AE5027E36A0600EE0866 /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D3AE7627E36A3F00EE0866 /* SecondViewController.swift in Sources */,
 				A3D3AE4A27E369F800EE0866 /* ViewController.swift in Sources */,
 				A3D3AE4627E369F800EE0866 /* AppDelegate.swift in Sources */,
 				A3D3AE4827E369F800EE0866 /* SceneDelegate.swift in Sources */,
+				A3CF09BB27E73F9D00E55FFD /* CrossDissolveTransiton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
